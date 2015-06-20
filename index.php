@@ -1,3 +1,6 @@
+<?php
+  include_once 'includes/send_mail.php';
+?>
 <!DOCTYPE HTML>
 <!--
 	Helios by HTML5 UP
@@ -246,7 +249,7 @@
 						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eum vulputate lorem neque lorem ipsum dolor.</p>
 						<div class="row">
 							<div class="8u 12u$(small)">
-								<form method="post" action="#">
+								<form method="post" action="<?php  echo esc_url($_SERVER['PHP_SELF'])  ?>">
 									<div class="row uniform 50%">
 										<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
 										<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
