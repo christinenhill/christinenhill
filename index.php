@@ -249,7 +249,7 @@
 						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eum vulputate lorem neque lorem ipsum dolor.</p>
 						<div class="row">
 							<div class="8u 12u$(small)">
-								<form method="post" action="index.php">
+								<form method="post" action="index.php" id="email_form">
 									<div class="row uniform 50%">
 										<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
 										<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -257,7 +257,7 @@
 									</div>
 								</form>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input form="email_form" type="submit" value="Send Message" /></li>
 								</ul>
 							</div>
 							<div class="4u$ 12u$(small)">
