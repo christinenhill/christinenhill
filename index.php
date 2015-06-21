@@ -32,7 +32,7 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2>Christine N Hill</h2>
+							<h2>About Me</h2>
 						</header>
 						<p>Here is a bio about me and my work.</p>
 						<ul class="actions">
@@ -42,7 +42,7 @@
 
 				<!-- Two -->
 					<section id="two">
-						<h2>Recent Work</h2>
+						<h2>My Work</h2>
 						<div class="row">
 							<article class="6u 12u$(xsmall) work-item">
 								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
