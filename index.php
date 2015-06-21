@@ -10,7 +10,7 @@
 -->
 <html>
 	<head>
-		<title>Strata by HTML5 UP</title>
+		<title>Christine N Hill</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -88,9 +88,9 @@
 							<div class="8u 12u$(small)">
 								<form method="post" action="index.php" id="email_form">
 									<div class="row uniform 50%">
-										<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+										<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" required /></div>
+										<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" required  /></div>
+										<div class="12u$"><textarea name="message" id="message" placeholder="Message" required rows="4"></textarea></div>
 									</div>
 								</form>
 								<ul class="actions">
